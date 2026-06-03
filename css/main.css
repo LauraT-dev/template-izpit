@@ -82,3 +82,34 @@ body {
     margin-top: 200px;
 }
 /* e:main  */
+
+/* footer */
+.footer__contact {
+    background-color: var(--secondary-color);
+    padding: 0 120px;
+    gap: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__title {
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 90px;
+}
+.footer__text {
+    font-size: 1.25em;
+    text-align: center;
+    max-width: 544px;
+}
+.footer__button {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 8px 14px;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 170%;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
